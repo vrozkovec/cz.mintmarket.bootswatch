@@ -24,6 +24,18 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;50
   &:hover {
     color: $white;
   }
+  
+  &-info,
+  &-success,
+  &-primary {
+    color: $gray-900;
+  }
+
+  &-info:hover,
+  &-success:hover,
+  &-primary:hover {
+    color: $gray-700;
+  }
 
   &-light,
   &-light:hover {
